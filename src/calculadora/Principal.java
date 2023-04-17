@@ -26,21 +26,14 @@ public class Principal {
 			result=num1+num2;
 			break;
 		case 2:
-			System.out.println("Para sumar indiqueme el numero mayor");
+			System.out.println("Para restar indiqueme el numero mayor");
 			num1=Leer.datoDouble();
 			System.out.println("Diga el numero menor");
 			num2=Leer.datoDouble();
 			result=num1-num2;
 			System.out.println("El resultado es: "+result);
 			break;
-		case 3:
-			System.out.println("Para sumar indiqueme el primer mayor");
-			num1=Leer.datoDouble();
-			System.out.println("Diga el segundo numero");
-			num2=Leer.datoDouble();
-			result=num1*num2;
-			System.out.println("El resultado es: "+result);
-			break;
+		
 
 		default:
 			break;
